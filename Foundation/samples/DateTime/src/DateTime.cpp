@@ -17,6 +17,8 @@
 #include "Poco/DateTimeFormat.h"
 #include "Poco/DateTimeFormatter.h"
 #include "Poco/DateTimeParser.h"
+#include "Poco/Timestamp.h"
+
 #include <iostream>
 
 
@@ -29,7 +31,26 @@ using Poco::DateTimeParser;
 
 int main(int argc, char** argv)
 {
-	LocalDateTime now;
+	//Assume we created the token at
+	DateTime TokenCreatedTimeStamp;
+	TokenCreatedTimeStamp.assign(2017, 4, 29, 12, 0, 0);
+	INT64 expiresInSeconds = 100000;
+	INT64 expiresInMicroSeconds = (expiresInSeconds * 1000000) - 45000000;
+
+	Poco::Timestamp now; // the current date and time UTC
+	Poco::Timestamp created = TokenCreatedTimeStamp.timestamp();
+
+	Poco::Timestamp::TimeDiff expirationBuffer(expiresInMicroSeconds);
+	Poco::Timestamp expires = created + expirationBuffer;
+
+	if (expires > now)
+	{
+		int x = 0;
+	}
+	else
+	{
+		int y = 0;
+	}
 	
 	std::string str = DateTimeFormatter::format(now, DateTimeFormat::ISO8601_FORMAT);
 	DateTime dt;

@@ -1,0 +1,47 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MySQL", "MySQL.vcxproj", "{7524F7EF-43FC-46E0-8EF2-B16C80B659EE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestSuite", "testsuite\TestSuite.vcxproj", "{DE9CF36D-5256-4854-B287-21A5BC51B185}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		debug_shared_141_mbcs|Win32 = debug_shared_141_mbcs|Win32
+		debug_static_md_141_mbcs|Win32 = debug_static_md_141_mbcs|Win32
+		debug_static_mt_141_mbcs|Win32 = debug_static_mt_141_mbcs|Win32
+		release_shared_141_mbcs|Win32 = release_shared_141_mbcs|Win32
+		release_static_md_141_mbcs|Win32 = release_static_md_141_mbcs|Win32
+		release_static_mt_141_mbcs|Win32 = release_static_mt_141_mbcs|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7524F7EF-43FC-46E0-8EF2-B16C80B659EE}.debug_shared_141_mbcs|Win32.ActiveCfg = debug_shared_141_mbcs|Win32
+		{7524F7EF-43FC-46E0-8EF2-B16C80B659EE}.debug_shared_141_mbcs|Win32.Build.0 = debug_shared_141_mbcs|Win32
+		{7524F7EF-43FC-46E0-8EF2-B16C80B659EE}.debug_static_md_141_mbcs|Win32.ActiveCfg = debug_static_md_141_mbcs|Win32
+		{7524F7EF-43FC-46E0-8EF2-B16C80B659EE}.debug_static_md_141_mbcs|Win32.Build.0 = debug_static_md_141_mbcs|Win32
+		{7524F7EF-43FC-46E0-8EF2-B16C80B659EE}.debug_static_mt_141_mbcs|Win32.ActiveCfg = debug_static_mt_141_mbcs|Win32
+		{7524F7EF-43FC-46E0-8EF2-B16C80B659EE}.debug_static_mt_141_mbcs|Win32.Build.0 = debug_static_mt_141_mbcs|Win32
+		{7524F7EF-43FC-46E0-8EF2-B16C80B659EE}.release_shared_141_mbcs|Win32.ActiveCfg = release_shared_141_mbcs|Win32
+		{7524F7EF-43FC-46E0-8EF2-B16C80B659EE}.release_shared_141_mbcs|Win32.Build.0 = release_shared_141_mbcs|Win32
+		{7524F7EF-43FC-46E0-8EF2-B16C80B659EE}.release_static_md_141_mbcs|Win32.ActiveCfg = release_static_md_141_mbcs|Win32
+		{7524F7EF-43FC-46E0-8EF2-B16C80B659EE}.release_static_md_141_mbcs|Win32.Build.0 = release_static_md_141_mbcs|Win32
+		{7524F7EF-43FC-46E0-8EF2-B16C80B659EE}.release_static_mt_141_mbcs|Win32.ActiveCfg = release_static_mt_141_mbcs|Win32
+		{7524F7EF-43FC-46E0-8EF2-B16C80B659EE}.release_static_mt_141_mbcs|Win32.Build.0 = release_static_mt_141_mbcs|Win32
+		{DE9CF36D-5256-4854-B287-21A5BC51B185}.debug_shared_141_mbcs|Win32.ActiveCfg = debug_shared|Win32
+		{DE9CF36D-5256-4854-B287-21A5BC51B185}.debug_shared_141_mbcs|Win32.Build.0 = debug_shared|Win32
+		{DE9CF36D-5256-4854-B287-21A5BC51B185}.debug_static_md_141_mbcs|Win32.ActiveCfg = debug_static_md|Win32
+		{DE9CF36D-5256-4854-B287-21A5BC51B185}.debug_static_md_141_mbcs|Win32.Build.0 = debug_static_md|Win32
+		{DE9CF36D-5256-4854-B287-21A5BC51B185}.debug_static_mt_141_mbcs|Win32.ActiveCfg = debug_static_mt|Win32
+		{DE9CF36D-5256-4854-B287-21A5BC51B185}.debug_static_mt_141_mbcs|Win32.Build.0 = debug_static_mt|Win32
+		{DE9CF36D-5256-4854-B287-21A5BC51B185}.release_shared_141_mbcs|Win32.ActiveCfg = release_shared|Win32
+		{DE9CF36D-5256-4854-B287-21A5BC51B185}.release_shared_141_mbcs|Win32.Build.0 = release_shared|Win32
+		{DE9CF36D-5256-4854-B287-21A5BC51B185}.release_static_md_141_mbcs|Win32.ActiveCfg = release_static_md|Win32
+		{DE9CF36D-5256-4854-B287-21A5BC51B185}.release_static_md_141_mbcs|Win32.Build.0 = release_static_md|Win32
+		{DE9CF36D-5256-4854-B287-21A5BC51B185}.release_static_mt_141_mbcs|Win32.ActiveCfg = release_static_mt|Win32
+		{DE9CF36D-5256-4854-B287-21A5BC51B185}.release_static_mt_141_mbcs|Win32.Build.0 = release_static_mt|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
